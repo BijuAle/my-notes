@@ -1,8 +1,6 @@
-Upload exisiting project (from local machine) as new repository (to github)
-
 git init
 git add .
 git commit -m "First commit"
 git remote add origin <URL>
-git remove -v
+git remote -v
 git push -u origin master

@@ -1,3 +1,8 @@
 CONNECT dba AS SYSDBA;
 CONNECT USER <username> IDENTIFIED BY <password>;
 GRANT ALL PRIVILEGES TO USERNAME;
+
+
+Reset Password with SYSDBA:
+CONNECT dba AS SYSDBA;
+ALTER USER <username> IDENTIFIED BY <newpassword>
