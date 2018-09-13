@@ -1,0 +1,4 @@
+$ lsblk
+su -
+# echo "UUID=$(lsblk -no UUID /dev/sdXy) /home $(lsblk -no FSTYPE /dev/sdXy) defaults,noatime 0 2" >> /etc/fstab
+# mount -a
