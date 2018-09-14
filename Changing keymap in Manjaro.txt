@@ -1,4 +1,10 @@
-Keymap:
+Creating custom keymaps:
+
+less greater less greater bar brokenbar bar
+
+For mapping Function Keys:
+
+Keymap ref:
 xmodmap -pke > ~/keymaptable
 
 Config:
