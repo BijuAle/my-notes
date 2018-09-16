@@ -1,1 +1,0 @@
-mysql -u my_app -p my_app -D my_db < my_app.sql	
