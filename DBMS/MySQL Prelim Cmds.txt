@@ -1,5 +1,3 @@
-mysql prelim commands:
-
 mysql -u root -p
 
 CREATE DB my_db;
