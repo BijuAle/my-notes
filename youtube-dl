@@ -1,0 +1,12 @@
+# With author subs
+youtube-dl --write-srt --sub-lang en '<uri>'
+
+# With auto subs
+youtube-dl --write-auto-sub '<uri>'
+
+# With best AV
+youtube-dl -f bestvideo+bestaudio '<uri>'
+
+# Select AV quality
+youtube-dl -F '<uri>'
+youtube-dl -F<quality index> '<uri>'
