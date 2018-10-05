@@ -10,3 +10,6 @@ youtube-dl -f bestvideo+bestaudio '<uri>'
 # Select AV quality
 youtube-dl -F '<uri>'
 youtube-dl -F<quality index> '<uri>'
+
+# Helpful cmd
+youtube-dl --write-srt --sub-lang en --write-auto-sub -f bestvideo+bestaudio '<uri>'
