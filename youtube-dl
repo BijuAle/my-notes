@@ -12,4 +12,4 @@ youtube-dl -F '<uri>'
 youtube-dl -F<quality index> '<uri>'
 
 # Helpful cmd
-youtube-dl --write-srt --sub-lang en --write-auto-sub -f bestvideo+bestaudio '<uri>'
+youtube-dl -o '%(title)s.%(ext)s' --write-srt --sub-lang en --write-auto-sub -f bestvideo+bestaudio '<uri>'
