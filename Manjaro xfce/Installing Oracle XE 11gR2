@@ -1,0 +1,9 @@
+1. Clone oracle repo to local directory: 
+      git clone https://aur.archlinux.org/oracle-xe.git   
+2. Download linux installation zip from oracle website
+3. Copy zip to clone directory
+4. Build package:
+      makepkg -s
+5. Install package
+      pacman -U <pkg_path/pkg_filenamep>
+ 
