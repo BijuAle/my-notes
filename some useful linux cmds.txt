@@ -1,0 +1,20 @@
+cd -			Switch back to last working directory
+cd ~			Go back to home directory
+cd			Go back to home directory
+ls -l			List directories
+cmd1; cmd2; 		Run multiple cmds
+cmd1 && cmd2		Run multiple cmds if previous cmd was succesful
+ctrl+r search_term	Reverse search cmd
+ctrl+q			Unfreeze terminal
+ctrl+a			Move cursor to beginnning
+ctrl+e			Move cursor to end
+vi filename		Read a file
+less filename		Read a file
+sudo !!			Run previous cmd with sudo
+> filename		Empty file content
+inxi -MGCNA		Show basic system specs
+cp -a /source/. /dest/	Copy files
+killall <program>	Kill running programs
+sudo shutdown -h 15	Auto Shutdown with timer
+echo wrd | aspell -a	Check spelling
+ 			
