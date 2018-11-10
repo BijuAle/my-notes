@@ -1,0 +1,11 @@
+udev attribute search:
+udevadm info -a -n '/sys/sdb1'
+
+udev rules reload:
+sudo udevadm control --reload-rules && udevadm trigger
+
+USB stick (HP):
+ACTION=="add", KERNELS=="usb2", SUBSYSTEMS=="usb", DRIVERS=="usb", ATTRS{idProduct}=="0002", ATTRS{idVendor}=="1d6b", RUN+="/home/biju/test.sh"
+
+Seagate drive:
+ACTION=="add", ATTRS{idProduct}=="ab24", ATTRS{idVendor}=="0bc2" RUN+="/home/biju/test.sh"
