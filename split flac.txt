@@ -1,0 +1,4 @@
+1. sudo pacman -Syu cuetools shntool
+2. Navigate to directory
+3. shntool split -f *.cue -o flac *.flac
+4. cuetag.sh *.cue split-track*.flac
