@@ -18,7 +18,7 @@ youtube-dl -o '%(title)s.%(ext)s' --write-srt --sub-lang en --write-auto-sub -f 
 youtube-dl -cit --extract-audio --audio-format mp3 '<playlist_url>'
 
 # Download playlist
-youtube-dl -cit '<playlist_url>'
+youtube-dl -cit -o '%(title)s.%(ext)s' '<playlist_url>'
 
 # Faster downloads
-$ youtube-dl --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M' URL
+$ youtube-dl --external-downloader aria2c --external-downloader-args '-c -j 3 -x 3 -s 3 -k 1M' -o '%(title)s.%(ext)s' URL
