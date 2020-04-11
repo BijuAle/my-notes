@@ -1,0 +1,6 @@
+for pic in *.jpg; do
+ convert ${pic} -gravity southWest -font TrajanPro-Regular  -pointsize 50 \
+          -stroke '#000C' -strokewidth 2 -annotate 0 '© Biju Ale' \
+          -stroke  none   -fill white  -annotate 0 '© Biju Ale' \
+          'final_'${pic}
+done
