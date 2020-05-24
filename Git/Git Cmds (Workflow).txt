@@ -1,0 +1,34 @@
+Cloning a remote repo
+	git clone <url> <destination>
+  	or
+ 	git clone <url> . (where . is the current directory)
+	
+View remote repo information
+	git remote -v
+	git branch -a
+	
+Pushing changes made in local machine to remote repo
+	git diff
+	git status
+	git add -A
+	git commit -m "Some msg on changes made"
+	git pull origin master (Pull changes made by others)
+	git push origin master (Commit our changes)
+
+Workflow
+	git branch <branch name> (Create a branch. Usually named after a feature)
+	git branch -a (view all branches)
+	git checkout <branch name> (change working branch)
+	make changes
+	git add -A
+	git commit -m "Some msg"
+	git push -u origin <branch name>
+	git branch -a
+	git checkout master
+	git pull origin master
+	git branch --merged (view merged branches)
+	git merge <branch name>
+	git push origin master
+	git branch --merged (verify by viewing merged branches)
+	git branch -d <branch name> (delete branch from local repo after merging)
+	git push origin --delete <branch name> (delete branch from remote repo after merging)
