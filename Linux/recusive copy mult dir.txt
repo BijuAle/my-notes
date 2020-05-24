@@ -1,1 +1,0 @@
-find "/source-path" -name '*.JPG' -exec cp -t "/destination-path" {} +

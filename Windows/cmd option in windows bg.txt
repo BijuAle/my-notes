@@ -1,9 +1,0 @@
-1. Run 'regedit'.
-2. Browse HKEY_CLASSES_ROOT\Directory\Background\shell\cmd
-3. Right click 'cmd' > 'Permissions' > 'Advanced' > 'Change'
-4. Add owner/user name
-5. Tick 'Replace owner...'
-6. OK
-7. Permissions for cmd > Administrators > Allow full control
-8. OK
-9. Rename 'HideBasedOnVelocityId' to 'ShowBasedOnVelocityId'

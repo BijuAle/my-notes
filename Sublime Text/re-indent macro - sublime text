@@ -1,4 +1,0 @@
-Record macro and bind it with key using:
-[
-    { "keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": {"file": "Packages/User/reindent.sublime-macro"} }
-]

@@ -1,1 +1,0 @@
-msinfo32 /report .\sys.txt

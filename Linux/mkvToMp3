@@ -1,1 +1,0 @@
-find . -type f -name "*.mkv" -exec bash -c 'FILE="$1"; ffmpeg -i "${FILE}" -vn -b:a 320000 -y "${FILE%.mkv}.mp3";' _ '{}' \;
