@@ -1,0 +1,13 @@
+rsync -r <source>/ <destination>/
+
+rsync -a <source>/ <destination>/
+(-a Recurse and preserve symlinks, permission, mod time, groups, owners etc.)
+
+rsync -av --dry-run <source>/ <destination>/
+(Check changes to be made based on source)
+
+rsync -av --delete --dry-run <source>/ <destination>/
+(Mirror source to destination, and remove exclusive changes in destination)
+
+rsybc -zaP <Source> user_name@ip_address:<destination>
+(Backup to remote machine, z - compress)

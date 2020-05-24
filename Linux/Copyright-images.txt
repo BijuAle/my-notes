@@ -1,0 +1,10 @@
+for img in *; do
+	jhead -autorot $img
+done
+
+for img in *; do
+ convert ${img} -gravity SouthWest -font TrajanPro-Regular  -pointsize 50 \
+          -stroke '#000C' -strokewidth 2 -annotate 0 '© Biju Ale' \
+          -stroke  none  -undercolor '#00000080' -fill white  -annotate 0 '© Biju Ale' \
+          'f_'${img}
+done
