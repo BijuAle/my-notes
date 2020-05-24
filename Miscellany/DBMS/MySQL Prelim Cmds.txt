@@ -1,0 +1,5 @@
+mysql -u root -p
+
+CREATE DB my_db;
+CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
+GRANT ALL ON 'my_db'.* TO 'someuser'@'localhost';
