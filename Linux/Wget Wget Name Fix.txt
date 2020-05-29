@@ -1,0 +1,1 @@
+wget -c -i a.txt --restrict-file-names=windows --content-disposition

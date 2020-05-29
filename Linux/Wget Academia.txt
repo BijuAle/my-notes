@@ -1,0 +1,1 @@
+wget --referer http://scholar.google.com "https://www.academia.edu/8957343/Reincarnation_and_the_Challenge_of_Jesus.docx"
