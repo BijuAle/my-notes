@@ -1,1 +1,0 @@
-wget -c -i a.txt --restrict-file-names=^Cndows --content-disposition
