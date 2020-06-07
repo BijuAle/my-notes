@@ -1,0 +1,4 @@
+/home/biju/.config/llpp.conf
+
+    selection-command='LC_CTYPE=UTF-8 xclip -i -selection clipboard'
+    paste-command='LC_CTYPE=UTF-8 xclip -o -selection clipboard'
