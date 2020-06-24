@@ -1,4 +1,4 @@
-Install fprintd, libfprint
+Install fprintd, libfprint.
 
 Insert line:
 auth       sufficient pam_fprintd.so
