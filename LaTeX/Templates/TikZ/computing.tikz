@@ -1,0 +1,27 @@
+﻿\begin{figure}
+\centering
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, minimum height=2em]
+\tikzstyle{line} = [draw, ->]
+\begin{tikzpicture}
+    \node (data) at (-1,0) {Data};
+    \node() (algorithm) at (1,0) {Algorithm};
+    \node [block] (computer) at (0,-1) {Computer};
+    \node (result) at (0,-2.5) {Result};
+    
+    \path[line] (data) -- (computer);
+    \path[line] (algorithm) --(computer);
+    \path[line] (computer) -- (result);
+\end{tikzpicture}
+\begin{tikzpicture}[node distance = 2cm, auto]
+    \node (data) at (-1,0) {Data};
+    \node (result) at (1,0) {Result};
+    \node [block] (computer) at (0,-1) {Computer};
+    \node (algorithm) at (0,-2.5) {Algorithm};
+    
+    \path[line] (data) -- (computer);
+    \path[line] (result) --(computer);
+    \path[line] (computer) -- (algorithm);
+\end{tikzpicture}
+\caption{Traditional computing vs Machine Learning}
+\label{fig:tml}
+\end{figure}

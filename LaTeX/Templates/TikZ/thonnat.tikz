@@ -1,0 +1,35 @@
+﻿\tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, align=center, minimum height = 2em]
+\tikzstyle{block2} = [rectangle, draw, fill=green!20, text centered, rounded corners, align=center, minimum height=2em]
+\tikzstyle{olap} = [fill=white, text centered, align=center]
+\tikzstyle{line} = [draw, ->]
+\usetikzlibrary{positioning}
+\begin{tikzpicture} [node distance=.7]
+\node[block2] (pplate){Photographic\\Plate};
+\node[block, below = of pplate, label={0: \small{Image Processing}}] (dd) {Digitation+\\Detection};
+\node[block2, below = of dd] (f) {File};
+\node[block, below = of f, label={0: \small{Pattern Recognition}}] (pe) {Parameter\\Extraction};
+\node[block2, below = of pe] (p) {Parameters};
+\node[rectangle, draw, rounded corners, right = of p] (k) {External Knowledge};
+\node[block, below = of p,  label={0: \small{Artificial Intelligence}}] (c) {Classification by\\Expert System};
+\node[circle, align=center, draw, below = of c] (cl) {Class+\\Description};
+
+\path[line](pplate)--(dd);
+\path[line](dd)--(f);
+\path[line](f)--(pe);
+\path[line](pe)--(p);
+\path[line](p)--(c);
+\path[line](c)--(cl);
+\path[line](c.158)|-(pe.west);
+\path[line](k)--(c);
+\end{tikzpicture}
+;
+% \path(agent.east)edge[line, out=0,in=25](env) node[rotate=-90] at (1.6,-1){\footnotesize{Action}};
+% 	
+% \node[below = .5cm of env](s1){$s_1$};
+% \node[left= .5cm of s1] (s0) {$s_0$};
+% \node[right = .5cm of s1](s2){$s_2$};
+% \node[right = .5cm of s2](s3){\ldots};
+% 
+% \path[line](s0)--node[above]{$a_0$} node[below]{$r_0$}(s1) ;
+% \path[line](s1)--node[above]{$a_1$} node[below]{$r_1$}(s2);
+% \path[line](s2)--node[above]{$a_2$} node[below]{$r_2$}(s3);3);

@@ -1,0 +1,14 @@
+﻿\tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, minimum height=2em]
+\tikzstyle{line} = [draw, ->]
+
+\begin{tikzpicture}[node distance = 2cm, auto]
+
+\node[label=\footnotesize{\emph{label}}] (a) at (-1,0) {A};
+\node (b) at (1,0) {B};
+\node [block] (c) at (0,-1) {C};
+\node[label=below:\footnotesize{\emph{label}}] (d) at (0,-2.5) {D};
+
+\path[line] (a) |- (c);
+\path (b) edge[line, bend left=45] (c);
+\path[line] (c) -- (d);
+\end{tikzpicture}

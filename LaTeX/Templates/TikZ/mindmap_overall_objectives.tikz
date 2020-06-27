@@ -1,0 +1,30 @@
+﻿\usetikzlibrary{mindmap}
+\begin{tikzpicture}[grow cyclic, text width=2.7cm, align=flush center, scale =.47,
+    level 1/.style={level distance=12.8cm,sibling angle=120},
+    level 2/.style={level distance=5.9cm,sibling angle=360/\the\tikznumberofchildren}]
+\node[circle, draw]{\textbf{Aim}: Predict Redshifts \& Morphology of Galaxies with Model Comparison \& Assessment.}
+    child {node{\textbf{Technical Objectives}}
+        child {node {\textit{1.Conduct} Literature Review}}
+        child {node {\textit{2.Perform} Regression to Predict Redshifts}}
+        child {node {\textit{3.Preform} Classification to predict morphology}}
+    }
+    child {node {\textbf{Personal Objectives}}
+        child {node {\textit{1. Understand} the nature of learning.}}
+        child {node {\textit{2. Be able} to Identify ML solvable problems}}
+        child {node {\textit{3. Garner} Applied ML Skills}}
+        child {node {\textit{4. Foster} Incisive Mind}}
+        child {node {\textit{5. Garner} Applied ML skills}}
+        child {node {\textit{6. Build} a scholarly Portfolio}}
+        child {node {\textit{7. Assimilate} Cosmological studies}}
+    }
+    child {node {\textbf{Academic Objectives}}
+        child {node {\textit{1. Grok} Research Methodology}}
+        child {node {\textit{2. Grok} Data-driven Astronomy}}
+        child {node {\textit{3. Learn \& Excite} Scientific Computing with Python}}
+        child {node {\textit{4. Cognize} Machine Learning Techniques}}
+        child {node {\textit{5. Synthesize} Knowledge}}
+        child {node {\textit{6. Fulfill} the Requirement for the Honors degree.}}
+        child {node {\textit{7. Qualify} as a Graduate.}}
+       }
+;
+\end{tikzpicture}{tikzpicture}

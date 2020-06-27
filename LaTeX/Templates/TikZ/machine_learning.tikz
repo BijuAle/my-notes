@@ -1,0 +1,21 @@
+﻿\begin{figure}
+\usetikzlibrary{,positioning}
+\centering
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, minimum height=2em]
+\tikzstyle{line} = [draw, ->]
+\begin{tikzpicture}
+	\node[block] (ml) at (0,0) {ML algorithm};
+	\node[above=of ml, font=\itshape] (trd) {Training Data};
+	\node[block, fill=green!20, below=of ml] (h) {Hypothesis};
+	\node[left=of h, font=\itshape] (td) {Test Data};
+	\node[right=of h, font=\itshape] (p) {Performance};
+
+	\path[line] (td) -- (h);
+	\path[line] (trd) -- (ml);
+	\path[line] (ml) -- (h);
+	\path[line] (h) -- (p);
+	\path[line, dashed] (p) |- (ml);
+\end{tikzpicture}
+\caption{Traditional computing vs Machine Learning}
+\label{fig:tml}
+\end{figure}
