@@ -37,4 +37,6 @@ Recover accidentaly removed changes
   git log (View to-recover commits in headless mode)
   git branch backup (Recover all commits and move to a branch)
   
-  
+Rever repo back to previous commit
+	git reset --hard <old-commit-id>
+	git push -f <remote-name> <branch-name>
