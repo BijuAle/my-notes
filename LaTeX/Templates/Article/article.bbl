@@ -1,0 +1,204 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{logistics_cluster_logistics_2015}{report}{}
+      \name{author}{1}{}{%
+        {{hash=2fb41c44d83e0601214f7f017aa3b1f2}{%
+           family={{Logistics Cluster}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {{UN} {WFP}}%
+      }
+      \list{location}{1}{%
+        {Gorkha}%
+      }
+      \strng{namehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{fullhash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{bibnamehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{authorbibnamehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{authornamehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{authorfullhash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{6}
+      \field{number}{Minute 150617}
+      \field{title}{Logistics Cluster Meeting Minute (17 June, 2015, {DDRC}, Gorkha)}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://logcluster.org/sites/default/files/logistics_cluster_nepal_gorkha_meeting_minutes_150617.pdf
+      \endverb
+      \verb{url}
+      \verb https://logcluster.org/sites/default/files/logistics_cluster_nepal_gorkha_meeting_minutes_150617.pdf
+      \endverb
+    \endentry
+    \entry{logistics_cluster_meeting_2015}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2fb41c44d83e0601214f7f017aa3b1f2}{%
+           family={{Logistics Cluster}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{fullhash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{bibnamehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{authorbibnamehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{authornamehash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \strng{authorfullhash}{2fb41c44d83e0601214f7f017aa3b1f2}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{8}
+      \field{title}{Meeting Minutes - Gorkha 13 August 2015}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://logcluster.org/document/meeting-minutes-gorkha-13-august-2015
+      \endverb
+      \verb{url}
+      \verb https://logcluster.org/document/meeting-minutes-gorkha-13-august-2015
+      \endverb
+    \endentry
+    \entry{nodhjaelp_about_2018}{online}{}
+      \name{author}{1}{}{%
+        {{hash=20003cb7ce7a3e5b2c2d76db2bab7721}{%
+           family={Nødhjælp},
+           familyi={N\bibinitperiod},
+           given={Folkekirkens},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{20003cb7ce7a3e5b2c2d76db2bab7721}
+      \strng{fullhash}{20003cb7ce7a3e5b2c2d76db2bab7721}
+      \strng{bibnamehash}{20003cb7ce7a3e5b2c2d76db2bab7721}
+      \strng{authorbibnamehash}{20003cb7ce7a3e5b2c2d76db2bab7721}
+      \strng{authornamehash}{20003cb7ce7a3e5b2c2d76db2bab7721}
+      \strng{authorfullhash}{20003cb7ce7a3e5b2c2d76db2bab7721}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{About {DCA}}
+      \field{title}{About {DCA}}
+      \field{titleaddon}{Folkekirkens Nødhjælp}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.danchurchaid.org/about-dca
+      \endverb
+      \verb{url}
+      \verb https://www.danchurchaid.org/about-dca
+      \endverb
+    \endentry
+    \entry{roger_bilham_subterranean_2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=877ed3e842fe74f5a081a45aa35e9a8a}{%
+           family={{Roger Bilham}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{fullhash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{bibnamehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{authorbibnamehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{authornamehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{authorfullhash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{Himal Southasian}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{Subterranean shifts}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.himalmag.com/subterranean-shifts-science-nepal-gorkha-earthquake/
+      \endverb
+      \verb{url}
+      \verb https://www.himalmag.com/subterranean-shifts-science-nepal-gorkha-earthquake/
+      \endverb
+    \endentry
+    \entry{roger_bilham_next_2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=877ed3e842fe74f5a081a45aa35e9a8a}{%
+           family={{Roger Bilham}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{fullhash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{bibnamehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{authorbibnamehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{authornamehash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \strng{authorfullhash}{877ed3e842fe74f5a081a45aa35e9a8a}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{journaltitle}{Himal Southasian}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{The next great earthquake}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.himalmag.com/the-next-great-earthquake/
+      \endverb
+      \verb{url}
+      \verb https://www.himalmag.com/the-next-great-earthquake/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
