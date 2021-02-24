@@ -15,7 +15,7 @@ class Scraper:
         downloadLinks = []
         for eachLink in self.getLinksList():
             driver.get(eachLink)
-            dl = driver.find_element_by_xpath("//*[@id='info']/h2/a")
+            dl = driver.find_element_by_xpath("//*[@id='download']/h2/a")
             downloadLinks.append(dl.get_attribute('href'))
         self.writeDownloadLinksToFile(downloadLinks)
     
