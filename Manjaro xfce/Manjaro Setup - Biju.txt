@@ -27,3 +27,7 @@ Date/Time: Timezone > Asia/Kathmandu
 
 Google Fonts: EB Garamond FiraCode to /usr/share/fonts/
 fc-cache -vf
+
+Git:
+ssh-keygen -t ed25519 -C "Email"
+xclip -sel clip < ~/.ssh/id_rsa.pub
