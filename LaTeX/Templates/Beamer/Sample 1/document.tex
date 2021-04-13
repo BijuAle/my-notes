@@ -1,0 +1,78 @@
+\documentclass{beamer}
+
+\usefonttheme{serif}
+
+\setbeamercolor{titlelike}{fg=olive}
+\setbeamercolor{structure}{fg=olive}
+\setbeamercolor{section}{fg=gray}
+\setbeamercolor{frametitle}{fg=gray}
+\setbeamercolor{normal text}{fg=gray}
+\setbeamercolor{enumerate item}{fg=gray}
+\setbeamercolor{itemize item}{bg=black}
+\setbeamercolor{itemize subitem}{bg=black}
+\setbeamercolor{item projected}{bg=darkgray}
+
+\setbeamertemplate{itemize items}[ball]
+\beamertemplatenavigationsymbolsempty
+\usebackgroundtemplate{\includegraphics[width=\paperwidth,height=\paperheight]{bg1.jpg}}
+
+\title{A Demo of Beamer Presentation.}
+\author{Biju Ale}
+\institute{Some Institute}
+\date{\scriptsize{28 Aug, 2020}}
+
+\begin{document}
+\frame{\maketitle}
+
+\begin{frame}
+	\frametitle{Introduction}
+	\begin{itemize}
+		\item Some\pause
+		\item Some list item.\pause
+		\item Of\pause
+		\item Items
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Some Ttitle}
+	\begin{enumerate}
+		\item Some
+			\begin{itemize}
+			\item Some
+			\item List
+			\item Of
+			\item Items
+		\end{itemize}
+		\item List
+		\item Of
+		\item Items
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Column Demo}
+	\begin{columns}		
+		\begin{column}{.5\textwidth}
+			This is a a demo of column feature in Beamer. Some long text can go here or even an image.
+		\end{column}			
+		\begin{column}{.5\textwidth}
+			The other column. Some text or image can go here.
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Blocks}
+	\begin{block}{Block Title}
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+		sed do eiusmod tempor incididunt ut labore et 
+		dolore magna aliqua.
+	\end{block}
+
+	\begin{quote}
+		Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	
+	\end{quote}
+\end{frame}
+
+\end{document}
