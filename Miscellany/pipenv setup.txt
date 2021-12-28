@@ -1,0 +1,3 @@
+pip install --user pipenv
+pipenv shell --three
+pipenv install django djangorestframework django-cors-headers pytz Pillow

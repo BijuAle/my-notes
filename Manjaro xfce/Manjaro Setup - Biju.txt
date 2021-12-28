@@ -11,15 +11,15 @@ sudo pacman-mirrors -c all && sudo pacman-mirrors -c all && sudo pacman -Syyu &&
 
 pacman -S yay zsh
 chsh -s $(which zsh)
+autoload -Uz compinit
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
 
-yay -S --needed biber texlive-bibtexextra texlive-bin texlive-core texlive-fontsextra texlive-formatsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-science texstudio
+yay -S --needed biber texlive-bibtexextra texlive-bin texlive-core texlive-fontsextra texlive-formatsextra texlive-humanities texlive-langextra texlive-latexextra texlive-pictures texlive-science texstudio base-devel python2 python3 wget curl gufw ttf-ms-fonts git joplin typora-freet brother-hl2140 manjaro-printer mpv audacious ffmpeg megasync gimp font-manager flameshot albert rsync freeplane zoom code ttf-nepali-fonts teamviewer texstudio ocrmypdf djvu2pdf tesseract-data-eng dictd arthyay a deluge deluge-gtk anki libreoffice-fresh libreoffice-fresh libreoffice-extension-languagetool neovim neofetch shotwell quiterss silo-grammarly nodejs zotero aspell-en libmythes mythes-en languagetool xclip llpp masterpdfeditor-free flameshot gsmartcontrol joplin sox arandr physlock xautolock fluxgui guvcview xsane picket picard visual-paradigm-community youtubel-dl mupdf-tools pdftk thunderbird calibre brave whatsapp-for-linux viber picket xfce4-mailwatch-plugin xfce4-weather-plugin xfce4-notes-plugin postman pandoc noto-fonts-emoji
 
-yay -S npm
-
-yay -S --needed base-devel python2 python3 wget curl gufw ttf-ms-fonts git joplin typora brother-hl2140 manjaro-printer mpv audacious ffmpeg megasync gimp font-manager flameshot albert rsync freeplane zoom code viber ttf-nepali-fonts teamviewer texstudio ocrmypdf djvu2pdf tesseract-data-eng dictd artha deluge deluge-gtk anki libreoffice-fresh libreoffice-fresh libreoffice-extension-languagetool neovim neofetch shotwell quiterss silo-grammarly nodejs zotero aspell-en libmythes mythes-en languagetool xclip llpp masterpdfeditor-free flameshot gsmartcontrol joplin
+yay -Rnsc midori qpdfview parole
 
 Move:
-.thunderbird, .mozilla .config/xfce4/xfconfd joplin texstudio mpv audacious llpp ~/.config/QuiteRss ~/.local/QuiteRss freeplane ~/.config/Code-OSs & code-oss typora zotero
+.thunderbird, .mozilla .config/xfce4/xfconfd joplin texstudio mpv audacious llpp ~/.config/QuiteRss ~/.local/QuiteRss freeplane ~/.config/Code-OSs & code-oss typora zotero ./local/chromedriver ~/zotero
 
 xfce-mail setup: notify-send "New Mail Recieved" -i xfce-newmail
 
@@ -31,3 +31,15 @@ fc-cache -vf
 Git:
 ssh-keygen -t ed25519 -C "Email"
 xclip -sel clip < ~/.ssh/id_rsa.pub
+
+sudo journalctl --vacuum-size=50M
+sudo journalctl --vacuum-time=4weeks
+SystemMaxUse=50M
+
+about:config
+ browser.cache.disk.enable false
+ browser.cache.memory.enable true
+ browser.cache.memory.capacity 1048576
+
+sudo systemctl start paccache.timer
+sudo systemctl status paccache.timer

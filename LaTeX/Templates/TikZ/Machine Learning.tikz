@@ -1,4 +1,12 @@
-﻿\begin{figure}
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+\begin{document}
+	\pagestyle{empty}
+
+
+\begin{figure}
 \usetikzlibrary{,positioning}
 \centering
 \tikzstyle{block} = [rectangle, draw, fill=blue!20, text centered, rounded corners, minimum height=2em]
@@ -19,3 +27,4 @@
 \caption{Traditional computing vs Machine Learning}
 \label{fig:tml}
 \end{figure}
+\end{document}
