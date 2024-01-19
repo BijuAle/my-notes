@@ -1,2 +1,0 @@
-HandleLidSwitch=ignore in  /etc/systemd/logind.conf
-IgnoreLid=true in etc/UPower/UPower.conf

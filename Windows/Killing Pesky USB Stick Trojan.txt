@@ -1,0 +1,15 @@
+Steps to remove shortcut virus:
+
+1. Open the command prompt.
+2. Assuming that your target drive letter is L, type the following
+	C:\> cd /d L:
+	L:\> attrib -s -h -a -r /s /d *.*
+3. You should now see all the invisible files along with the shortcut. Delete them except the autorun.inf file.
+4. Download Process Explorer by Sysinternals and Unlocker 1.9 by Collomb.
+5. Use the Unlocker and determine the process that is using the autorun.inf sorry for the image, imgur.com kills the quality. In the image, wuauclt.exe is using the autorun.inf 
+6. Open the Process Explorer and look for the process. Press CTRL+L and sort the ‘type’ column. Scrolldown to the ‘file’ type.
+7. You should see the autorun.inf being used by the process. If you don’t see it, you are looking at thewrong process. Right click the row and select Close handle.
+8. The autorun.inf should be removable already. Next we need to see if there is already a backdoor in ourcomputer. Look again at the ‘files’ being used by the process and search something suspicious. Typicallyfound in your C:\users\your-username-here. Look for something like this. AppData\Local\Temp\mstuaespm.pif
+9. Close the handle, just like what you did in autorun.inf then remove the file inside your drive.
+
+

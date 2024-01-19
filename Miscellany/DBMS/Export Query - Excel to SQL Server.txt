@@ -1,4 +1,0 @@
-SELECT * INTO EXCEL_IMPORT
-FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',
-'Excel 12.0; Database=C:\Excel\Spreadsheet.xls; HDR=YES; IMEX=1',
-'SELECT * FROM [Sheet1$]');

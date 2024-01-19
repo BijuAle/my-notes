@@ -1,0 +1,15 @@
+1. Create User
+CONNECT dba AS SYSDBA;
+CONNECT USER <username> IDENTIFIED BY <password>;
+GRANT ALL PRIVILEGES TO USERNAME;
+ 
+2. Reset Password with SYSDBA
+CONNECT dba AS SYSDBA;
+ALTER USER <username> IDENTIFIED BY <newpassword>
+
+3. Clear Screen
+cl scr
+
+4. Show connected user
+SHOW USER;
+

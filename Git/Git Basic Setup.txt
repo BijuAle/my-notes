@@ -1,0 +1,12 @@
+Add user for all repositories
+  git config --global user.name "Mona Lisa"
+  git config --global user.name
+
+Add email for all repositories
+  git config --global user.email "email@example.com"
+  git config --global user.email
+
+Add email for single repository
+  Change directory
+  git config user.email "email@example.com"
+  git config user.email

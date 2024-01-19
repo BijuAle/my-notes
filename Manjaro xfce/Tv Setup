@@ -1,3 +1,0 @@
-sudo teamviewer --daemon enable
-systemctl enable teamviewerd
-systemctl start teamviewerd

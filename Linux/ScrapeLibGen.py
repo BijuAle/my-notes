@@ -3,7 +3,8 @@ from urllib.request import urlopen
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 class Scraper:
     def __init__(self, webtable):
@@ -82,9 +83,8 @@ if __name__ == "__main__":
     options.binary_location = "/bin/brave"
     options.add_argument("--headless")
 
-    driver = webdriver.Chrome(
-        options=options, executable_path="/home/biju/.local/share/chromedriver"
-    )
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
     sys.stdout.write("\r" + "Scanning for Links...\n")
     driver.get(sys.argv[1])
 

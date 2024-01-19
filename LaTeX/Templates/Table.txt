@@ -1,0 +1,10 @@
+% TABLE:
+% \begin{table}[h]
+% \centering
+% \begin{tabular}{rl}
+%     ---- & ----\\
+%     ---- & ----\\
+%     ---- & ----\\
+%     ---- & ----
+% \end{tabular}
+% \end{table}
