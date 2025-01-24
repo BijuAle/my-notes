@@ -1,6 +1,0 @@
-Install fprintd, libfprint.
-
-Insert line:
-auth       sufficient pam_fprintd.so
-
-on files: /etc/pam.d/...

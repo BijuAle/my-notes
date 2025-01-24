@@ -1,0 +1,12 @@
+yay -S samba
+
+sudo nano /etc/samba/credentials
+username=your_username
+password=your_password
+
+sudo chmod 600 /etc/samba/credentials
+
+For each mountpoint:
+//server/share   /mnt/windows_share   cifs   credentials=/etc/samba/credentials   0   0
+
+sudo mount -a
